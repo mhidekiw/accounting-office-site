@@ -136,6 +136,7 @@ main h2 {
 
     padding: 3rem;
     color: var(--color-text-light-blue);
+
 }
 
 #values-section li{
@@ -143,3 +144,10 @@ main h2 {
     letter-spacing: .1rem;
 }
 
+footer {
+    background-color: var(--color-background);
+    padding: 1.25rem;
+    text-align: center;
+    border:none;
+    color: var(--color-text-dark-blue);
+}
