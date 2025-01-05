@@ -9,6 +9,7 @@
     --color-text: #202020;
     --color-text-dark-blue: rgba(0, 48, 102, 0.8);
     --color-background: #ffffff;
+    --color-text-light-blue: hsla(212, 100%, 95%, 0.8);
     font-size: 1.3rem;
 }
 
@@ -110,7 +111,7 @@ main h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4rem;
+    padding: 2rem 20%;
 }
 
 .text-block {
@@ -124,5 +125,21 @@ main h2 {
     min-width: 15rem;
     max-width: 30vw;
     height: auto;
+}
+
+#values-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, hsl(212, 70%, 10%), hsl(212, 70%, 30%));
+
+    padding: 3rem;
+    color: var(--color-text-light-blue);
+}
+
+#values-section li{
+    margin-top: 1rem;
+    letter-spacing: .1rem;
 }
 
