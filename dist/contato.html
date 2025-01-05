@@ -10,81 +10,82 @@
 <body>
     
     <header>
-        <p><strong>Escritório de Contabilidade ABC</strong></p>
+        <a href="index.html" class="brand-name"><span class="logo"></span>Escritório de Contabilidade ABC</a>
         <nav>
-            <a href="index.html">Início</a> | 
-            <a href="sobre.html">Sobre Nós</a> | 
-            <a href="servicos.html">Serviços</a> | 
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="servicos.html">Serviços</a>
             <a href="contato.html">Contato</a>
         </nav>
-        <hr>
     </header>
 
     <main>
-        <h1>
-            Contato
-        </h1>
-    
-        <section>
-            Entre em contato conosco para obter mais informações ou agendar uma reunião para discutir suas necessidades contábeis. Nossa equipe está pronta para ajudá-lo.
-        </section>
         
-        <section>
-            <h2>Informações para contato</h2>
-            <address>
-                <ul>
-                    <li>Email: contato@escritorioabc.com</li>
-                    <li>Telefone: (11) 1234-5678</li>
-                    <li>Endereço: Rua das Flores, 123 - São Paulo/SP</li>
-                </ul>
-            </address>
-        </section>
-    
-        <section>
-            <h2>Horário de Atendimento</h2>
+        <section class="img-background-contact welcome img-display">
+            <h1>
+                Contato
+            </h1>
             <p>
-                Segunda a Sexta-feira, das 8h às 18h.
+                Entre em contato conosco para obter mais informações ou agendar uma reunião para discutir suas necessidades contábeis. Nossa equipe está pronta para ajudá-lo.
             </p>
         </section>
         
-        <section>
+        <section class="text-text-section">
+            <section>
+                <h2>Informações para contato</h2>
+                <address>
+                    <ul>
+                        <li>Email: <a href="mailto:contato@escritorioabc.com">contato@escritorioabc.com</a></li>
+                        <li>Telefone: (11) 1234-5678</li>
+                        <li>Endereço: Rua das Flores, 123 - São Paulo/SP</li>
+                    </ul>
+                </address>
+            </section>
+        
+            <section>
+                <h2>Horário de Atendimento</h2>
+                <p>
+                    Segunda a Sexta-feira, das 8h às 18h.
+                </p>
+            </section>
+        </section>
+        
+        <section class="plain-text-section">
             <h2>Envie uma Mensagem</h2>
 
-            <form action="#" method="post">
-            
-    
-                <div>
-                    <label for="nome">Nome:</label>
+            <form action="#" method="post">    
+                <div class="form-block">
+                    <label for="nome">Nome:</label> <br>
                     <input type="text" name="nome" id="nome">
-                    <br><br>
                 </div>
         
-                <div>
-                    <label for="email">Email:</label>
+                <div class="form-block">
+                    <label for="email">Email:</label><br>
                     <input type="email" name="email" id="email">
-                    <br><br>
                 </div>
         
-                <div>
-                    <label for="mensagem">Mensagem:</label>
+                <div class="form-block">
+                    <label for="mensagem">Mensagem:</label><br>
                     <textarea 
                         name="mensagem"
                         id="mensagem"
                         placeholder="O que deseja nos dizer..."
                         rows="4"    
                     ></textarea>
-                    <br><br>
                 </div>
         
-                <button type="submit">Enviar mensagem</button>
+                <button type="submit" class="contact-button">Enviar mensagem</button>
             </form>
+        </section>
+
+        <section class="dark-gradient">
+            <p>Estamos sempre à disposição para atendê-lo!</p>
         </section>
         
     </main>
     
 
     <footer>
-        <hr>
         <p>© 2023 Escritório de Contabilidade ABC</p>
     </footer>
 
