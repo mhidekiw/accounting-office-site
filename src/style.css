@@ -7,7 +7,7 @@
 
 :root {
     --color-text: #202020;
-    --color-text-dark-blue: rgba(0, 48, 102, 0.8);
+    --color-text-dark-blue: hsla(212, 100%, 15%, 0.8);
     --color-background: #ffffff;
     --color-text-light-blue: hsla(212, 100%, 95%, 0.8);
     font-size: 1.3rem;
@@ -68,20 +68,27 @@ header nav a:hover {
     text-underline-offset: 1rem;
 }
 
-.img-background-people {
+.img-display {
     background: rgb(125, 159, 255);
-    background-image: url(background-people.png);
     background-blend-mode: screen;
     background-position: center;
     background-size: cover;
     min-height: 80vh;
     width: 100%;
     padding: 3rem;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.img-background-people {
+    background-image: url(background-people.png);
+}
+
+.img-background-people2 {
+    background-image: url(background-people2.png);
 }
 
 .welcome h1 {
