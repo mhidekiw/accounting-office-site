@@ -92,6 +92,10 @@ header nav a:hover {
     background-image: url(background-people2.png);
 }
 
+.img-working {
+    background-image: url(working.png);
+}
+
 .welcome h1 {
     margin: 3rem;
     font-size: 3rem;
